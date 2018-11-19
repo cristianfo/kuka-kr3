@@ -37,10 +37,8 @@ Calculo da cinemática direta do robô, que apartir da posição das juntas, ret
 ``` matlab
 kr3FK(angulos)
 
-%    Argumentos:
-% 	 angulos = angulos das juntas em graus, padrão [0 -90 90 80 0 0]
-%%   Retorno:
-%    T0f = matriz de transformação homogênea da cinemática direta
+%    Parâmetros: angulos = angulos das juntas em graus
+%%   Retorno: T0f = matriz de transformação homogênea da cinemática direta
 ```
 
 ### kr3IK - Cinemática inversa do robô
@@ -61,10 +59,9 @@ Recebe a posição e velocidade das juntas e calcula a velocidade do efetuador a
 ``` matlab
 kr3fj(posJunta,velJunta)
 
-%%parametros: posJunta vetor 1x6 (Graus e mm)
-%%velJunta vetor 6x1 (em graus/s)
+%%Parametros: posJunta vetor 1x6 (Graus e mm), velJunta vetor 6x1 (em graus/s)
 
-%%retorno : matriz de velocidade do efetuador 6x1, onde as três primeiras
+%%Retorno : matriz de velocidade do efetuador 6x1, onde as três primeiras
 %%linhas são as velocidades lineares, e as três últimas angulares (mm/s e
 %%graus/s)
 
@@ -78,10 +75,8 @@ Recebe a posição das juntas e velocidade do efetuador, e calcula a velocidade 
 ``` matlab
 kr3ij(posJunta,velEfetuador)
 
-%%parametros: posJunta vetor 1x6 (Graus e mm)
-%%velEfetuador vetor 6x1 (mm/s e em graus/s)
-
-%%retorno : matriz de velocidade das juntas 6x1 (graus/s)
+%%Parametros: posJunta vetor 1x6 (Graus e mm), velEfetuador vetor 6x1 (mm/s e em graus/s)
+%%Retorno : matriz de velocidade das juntas 6x1 (graus/s)
 ```
 
 ### kr3Teach - Teach pendant gráfico
