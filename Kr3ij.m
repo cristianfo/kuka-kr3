@@ -1,8 +1,8 @@
 %%retorna a velocidade da junta -> velJunta = J^(-1).velEfetuador
 %%parametros: posJunta vetor 1x6 (Graus e mm)
-%%velEfetuador vetor 6x1 (mm/s e em graus/s)
+%%velEfetuador vetor 6x1 (mm/s e em rad/s)
 
-%%retorno : matriz de velocidade das juntas 6x1 (graus/s)
+%%retorno : matriz de velocidade das juntas 6x1 (rad/s)
 function velJunta= Kr3fj(posJunta,velEfetuador)
 
 %%parâmetros de geometria do manipulador

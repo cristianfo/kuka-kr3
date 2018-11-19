@@ -4,7 +4,7 @@
 
 %%retorno : matriz de velocidade do efetuador 6x1, onde as três primeiras
 %%linhas são as velocidades lineares, e as três últimas angulares (mm/s e
-%%graus/s)
+%%rad/s)
 function velEfetuador= Kr3fj(posJunta,velJunta)
 
 %%parâmetros de geometria do manipulador
