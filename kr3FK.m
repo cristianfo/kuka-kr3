@@ -52,6 +52,7 @@ Af = tran([f(1),f(2),f(3)]);
 %Retorno da matriz de transformação homogênea
 T0f = round(A1*A2*A3*A4*A5*A6,4);
 
+
 %%Funções auxiliares de rotação e translação
 function H = rotz(alpha)    
 H = [cos(alpha), -sin(alpha), 0, 0;
