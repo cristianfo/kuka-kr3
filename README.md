@@ -59,11 +59,11 @@ Recebe a posição e velocidade das juntas e calcula a velocidade do efetuador a
 ``` matlab
 kr3fj(posJunta,velJunta)
 
-%%Parametros: posJunta vetor 1x6 (Graus e mm), velJunta vetor 6x1 (em graus/s)
+%%Parametros: posJunta vetor 1x6 (Graus e mm), velJunta vetor 6x1 (em rad/s)
 
 %%Retorno : matriz de velocidade do efetuador 6x1, onde as três primeiras
 %%linhas são as velocidades lineares, e as três últimas angulares (mm/s e
-%%graus/s)
+%%rad/s)
 
 ```
 
@@ -75,8 +75,8 @@ Recebe a posição das juntas e velocidade do efetuador, e calcula a velocidade 
 ``` matlab
 kr3ij(posJunta,velEfetuador)
 
-%%Parametros: posJunta vetor 1x6 (Graus e mm), velEfetuador vetor 6x1 (mm/s e em graus/s)
-%%Retorno : matriz de velocidade das juntas 6x1 (graus/s)
+%%Parametros: posJunta vetor 1x6 (Graus e mm), velEfetuador vetor 6x1 (mm/s e em rad/s)
+%%Retorno : matriz de velocidade das juntas 6x1 (rad/s)
 ```
 
 ### kr3Teach - Teach pendant gráfico
