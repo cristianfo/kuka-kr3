@@ -20,7 +20,7 @@ Esta função inicializa o robô Kuka KR3 com os parâmetros de ferramenta passa
 kr3Init(f)
 
 % Inicialização do robo kuka kr3
-% Argumentos: f = vetor de posicionamento da ferramenta em mm, padrão [0 0 0]
+% Argumentos: f = vetor de posicionamento da ferramenta em mm
 
 ```
 
