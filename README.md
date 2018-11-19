@@ -11,7 +11,7 @@ Protótipo do robo Kuka KR3 R540 no MATLAB.
 
 O arquivo Exemple.m demonstra a utilização das funções.
 
-### kr3Init - Robot startup
+### kr3Init - Inicialização do robô
 
 Esta função inicializa o robô Kuka KR3 com os parâmetros de ferramenta passados como argumento da função.
 
