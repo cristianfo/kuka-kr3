@@ -16,7 +16,6 @@ end
 fprintf('Calculando cinemática inversa\n');
 
 L = kr3.links;
-F = kr3.tool.T;
 
 d6=[0; 0; abs(L(6).d)]; %%d6 é um comprimento no eixo Z, entre o referencial
  %do punho e o referencial da ferramenta
