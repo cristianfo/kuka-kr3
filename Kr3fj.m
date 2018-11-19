@@ -13,7 +13,7 @@ a2=260;
 a3=20;
 d1=-345;
 d4=-260;
-d6=75+146.9;
+d6=-(75+146.9);
 
 %%variáveis auxiliares
 c1=cos(posJunta(1,1));

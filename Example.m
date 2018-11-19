@@ -26,6 +26,6 @@ velocidadeEfetuador = Kr3fj(Q, [0.1; 0.2; 0.1; 0.3; 0.1; 0.1])
 
 %%Cálculo da velocidade das juntas dado a velocidade do efetuador
 
-velocidadeJuntas = Kr3ij(Q, [0.1; 2; 0.1; 4; 0.1; 0.1])
+velocidadeJuntas = Kr3ij(Q, [0.1; 2; 0.1; 0.3; 0.1; 0.1])
 
 kr3Teach(Qn)           %Visualização gráfica dos ângulos retornados da inversa

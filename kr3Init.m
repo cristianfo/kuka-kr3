@@ -20,7 +20,7 @@ L2 = Link('offset', -pi/2, 'd', 0, 'a', 260, 'alpha', 0, 'qlim', [-170*pi/180 50
 L3 = Link('d', 0, 'a', 20, 'alpha', pi/2, 'qlim', [-155*pi/180 110*pi/180]);
 L4 = Link('d', -260, 'a', 0, 'alpha', -pi/2, 'qlim', [-175*pi/180 175*pi/180]);
 L5 = Link('d', 0, 'a', 0, 'alpha', pi/2, 'qlim', [-120*pi/180 120*pi/180]);
-L6 = Link('d', -195, 'a', 0, 'alpha', 0, 'qlim', [-350*pi/180 350*pi/180]);
+L6 = Link('d', -(75+F(3)), 'a', 0, 'alpha', 0, 'qlim', [-350*pi/180 350*pi/180]);
 L = [L1;L2;L3;L4;L5;L6];
 
 %Robô com os parâmetros DH

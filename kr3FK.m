@@ -48,7 +48,7 @@ A3 = rotz(a(3)+L(3).offset)*tran([L(3).a,0,L(3).d])*rotx(L(3).alpha);
 A4 = rotz(a(4)+L(4).offset)*tran([L(4).a,0,L(4).d])*rotx(L(4).alpha);
 A5 = rotz(a(5)+L(5).offset)*tran([L(5).a,0,L(5).d])*rotx(L(5).alpha);
 A6 = rotz(a(6)+L(6).offset)*tran([L(6).a,0,L(6).d])*rotx(L(6).alpha);
-
+Af = tran([f(1),f(2),f(3)]);
 %Retorno da matriz de transformação homogênea
 T0f = round(A1*A2*A3*A4*A5*A6,4);
 

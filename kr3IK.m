@@ -18,12 +18,12 @@ fprintf('Calculando cinemática inversa\n');
 L = kr3.links;
 F = kr3.tool.T;
 
-d6=[0; 0; abs(L(6).d)]; %%d6 é um comprimento no eixo Z de 195mm, entre o referencial
+d6=[0; 0; abs(L(6).d)] %%d6 é um comprimento no eixo Z, entre o referencial
  %do punho e o referencial da ferramenta
  
  p06 = M(1:3,4); %%Vetor que une o referencial inercial ao referencial da ferramenta
  R = M(1:3,1:3); %%Submatriz de rotação de M
- p0w_aux = p06+R*d6; %%Vetor que une o referencial inercial ao referencial do
+ p0w_aux = p06+R*(d6+F(3)); %%Vetor que une o referencial inercial ao referencial do
                      %%punho
  
  %%Cálculo de q1                    
