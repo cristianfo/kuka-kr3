@@ -59,7 +59,8 @@ kr3IK(mat)
 Recebe a posição e velocidade das juntas e calcula a velocidade do efetuador através do Jacobiano.
 
 ``` matlab
-%%retorna a velocidade do efetuador -> velEfetuador = J.velJunta
+kr3fj(posJunta,velJunta)
+
 %%parametros: posJunta vetor 1x6 (Graus e mm)
 %%velJunta vetor 6x1 (em graus/s)
 
@@ -71,10 +72,12 @@ Recebe a posição e velocidade das juntas e calcula a velocidade do efetuador a
 
 ### kr3ij - Jacobiano de velocidade das juntas
 
+
 Recebe a posição das juntas e velocidade do efetuador, e calcula a velocidade das juntas através do Jacobiano inverso.
 
 ``` matlab
-%%retorna a velocidade da junta -> velJunta = J^(-1).velEfetuador
+kr3ij(posJunta,velEfetuador)
+
 %%parametros: posJunta vetor 1x6 (Graus e mm)
 %%velEfetuador vetor 6x1 (mm/s e em graus/s)
 
