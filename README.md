@@ -46,7 +46,7 @@ kr3FK(angulos)
 Recebe a matriz de transformação da postura desejada e calcula a cinemática inversa do manipulador. São retornados os angulos das juntas são retornados.
 
 ``` matlab
-kr3IK(mat)
+kr3IK(M)
 
 %    Parâmetros: M = matriz homogênea 4 x 4
 %    Retorno: angulos = ângulos das juntas em graus (Denavit-Hartemberg)
